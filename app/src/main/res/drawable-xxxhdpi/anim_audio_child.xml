@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/png_radio1" android:duration="500"/>
+    <item android:drawable="@drawable/png_radio2" android:duration="500"/>
+    <item android:drawable="@drawable/png_radio3" android:duration="500"/>
+    <item android:drawable="@drawable/png_radio4" android:duration="500"/>
+    <item android:drawable="@drawable/png_radio5" android:duration="500"/>
+    <item android:drawable="@drawable/png_radio6" android:duration="500"/>
+</animation-list>

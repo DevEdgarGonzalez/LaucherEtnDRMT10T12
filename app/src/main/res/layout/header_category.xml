@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo_etn"
+        app:layout_constraintBottom_toTopOf="@+id/llMainActions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ibtnBackHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/state_item_focus_control_remote"
+        android:focusable="true"
+        android:nextFocusLeft="@null"
+        android:nextFocusUp="@null"
+        android:src="@drawable/state_button_back_header"
+        app:layout_constraintBottom_toTopOf="@+id/imgvCategory"
+        app:layout_constraintEnd_toStartOf="@+id/ibtnHomeHeader"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogo" />
+
+    <ImageView
+        android:id="@+id/ibtnHomeHeader"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/state_item_focus_control_remote"
+        android:focusable="true"
+        android:nextFocusLeft="@null"
+        android:nextFocusUp="@null"
+        android:src="@drawable/icon_home"
+        app:layout_constraintBottom_toTopOf="@+id/imgvCategory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ibtnBackHeader"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogo" />
+
+    <ImageView
+        android:id="@+id/imgvCategory"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/btnBluetooth"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/state_item_focus_control_remote"
+        android:focusable="true"
+        android:nextFocusLeft="@null"
+        android:nextFocusUp="@null"
+        android:src="@drawable/ic_bluetooth_state_on"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ibtnBrillo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/ibtnBrillo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/state_item_focus_control_remote"
+        android:focusable="true"
+        android:nextFocusLeft="@null"
+        android:nextFocusUp="@null"
+        android:src="@drawable/brightness_black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnBluetooth" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

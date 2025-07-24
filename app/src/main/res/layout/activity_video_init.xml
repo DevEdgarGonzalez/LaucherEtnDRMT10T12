@@ -1,0 +1,124 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/videoSurfaceVidinitContainer"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.actia.mexico.generic_2018_t10_t12.VideoInitActivity">
+
+    <SurfaceView
+        android:id="@+id/surfaceMovieInit"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/shadow_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_overlay"
+        android:visibility="gone">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--<ImageView
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="16dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/tufesa_orange" />-->
+
+            <ImageView
+                android:id="@+id/bright_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_toRightOf="@+id/bluetooth_image_view"
+                android:src="@drawable/brightness_black"
+                android:tint="#FFFFFF"
+                app:layout_constraintStart_toEndOf="@+id/bluetooth_image_view"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/logoHeader"
+                android:layout_alignParentEnd="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/logoHeader"
+                app:layout_constraintTop_toBottomOf="@+id/logoHeader">
+
+                <ImageView
+                    android:id="@+id/volume_image_view"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/volume_up_action" />
+
+                <SeekBar
+                    android:id="@+id/volume_seek_bar"
+                    style="@style/Widget.AppCompat.SeekBar"
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:rotation="270"
+                    android:minHeight="300dp"
+                    android:maxHeight="400dp"
+                    android:thumb="@drawable/ic_circle" />
+
+                <ImageView
+                    android:id="@+id/volume_down_image_view"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/volume_down_action" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/logoHeader"
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/logo_etn"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:gravity="right"
+        android:background="@drawable/transparent_shadow">
+
+        <Button
+            android:id="@+id/skip_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:layout_marginEnd="96dp"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            android:text="Saltar"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</FrameLayout>

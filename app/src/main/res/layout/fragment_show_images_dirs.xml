@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.actia.nosotros.ShowDirsImagesFragment">
+    <ImageButton
+        android:id="@+id/ibtnCloseShowImageFgmnt"
+        style="@style/btnCloseDialog"
+        android:layout_gravity="right"
+        android:focusable="true"
+        android:background="@drawable/state_item_focus_control_remote"/>
+
+    <Space
+        style="@style/SpaceGnral"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerNosotrosMainFgmnt"
+        style="@style/styleRecycler.with_padding"/>
+
+    <Space
+        style="@style/SpaceGnral"/>
+
+</LinearLayout>

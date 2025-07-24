@@ -1,0 +1,63 @@
+<resources>
+    <!--
+
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
+    -->
+    <!--ELEMENTS CATEGORY-->
+    <dimen name="element_square_category">175dp</dimen>
+
+    <!--    HEADER CATEGORY-->
+    <dimen name="header_category_height">180dp</dimen>
+    <dimen name="header_category_btnback_width">200dp</dimen>
+    <dimen name="header_category_btnback_heght">150dp</dimen>
+    <dimen name="header_category_btnback_padding">15dp</dimen>
+    <dimen name="header_category_btnbright_size">80dp</dimen>
+    <dimen name="header_category_btnbright_padding">10dp</dimen>
+    <dimen name="header_category_title_width">400dp</dimen>
+    <dimen name="header_category_title_height">100dp</dimen>
+    <dimen name="header_category_title_padding_bottom">10dp</dimen>
+    <dimen name="header_category_title_text_size">46sp</dimen>
+    <dimen name="activity_horizontal_margin">128dp</dimen>
+    <dimen name="header_category_image_size">180dp</dimen>
+    <dimen name="header_category_image_padding">40dp</dimen>
+
+
+    <!--    MAIN Ativity-->
+    <dimen name="main_category_text_size">30sp</dimen>
+    <dimen name="main_category_text_margin_bottom">80dp</dimen>
+
+    <!--    todo: (width_category X number of elements) + ((number elements-1) X item_category_width)-->
+    <dimen name="main_category_size">200dp</dimen>
+
+    <dimen name="space_cover_1">0dp</dimen>
+    <dimen name="oneCategories">220dp</dimen>       <!--  (item_category_width x 1)  + ((1-1) x space_cover_1) -->
+
+
+    <dimen name="space_cover_2">300dp</dimen>
+    <dimen name="twoCategories">740dp</dimen>       <!--  (item_category_width x 2)  + ((2-1) x space_cover_2) -->
+
+
+    <dimen name="space_cover_3">200dp</dimen>
+    <dimen name="threeCategories">1060dp</dimen>     <!--  (item_category_width x 3)  + ((3-1) x space_cover_3) -->
+
+
+    <dimen name="space_cover_4">120dp</dimen>
+    <dimen name="fourCategories">1240dp</dimen>      <!--  (item_category_width x 4)  + ((4-1) x space_cover_4) -->
+
+
+    <dimen name="space_cover_5">45dp</dimen>
+    <dimen name="fiveCategories">1240dp</dimen>     <!--  (item_category_width x 5)  + ((5-1) x space_cover_5) -->
+
+    <dimen name="space_cover_6">10dp</dimen>
+    <dimen name="sixCategories">1290dp</dimen>      <!--  (item_category_width x 6)  + ((6-1) x space_cover_6) -->
+
+
+    <!--INFO TOKENS-->
+    <dimen name="info_token_textsize_header_title">28sp</dimen>
+    <dimen name="info_token_textsize_header_subtitle">24sp</dimen>
+    <dimen name="info_token_textsize_header_number">40sp</dimen>
+    <dimen name="info_token_item_textsize_name">34sp</dimen>
+    <dimen name="info_token_item_textsize_status">32sp</dimen>
+    <dimen name="info_token_item_textsize_subdata">20sp</dimen>
+</resources>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+        <item name="android:textViewStyle">@style/genericTextView</item>
+    </style>
+
+
+    <style name="genericTextView">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/grayGeneric</item>
+    </style>
+
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="ButtonBarButton" />
+	<style name="SpinnerStyle" parent="android:style/Widget.ListView.DropDown">
+	    <item name="android:divider">@null</item>
+	    <item name="android:dividerHeight">0dp</item>
+	</style>
+
+    <style name="scrollbar_shape_style">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_vertical_thumb</item>
+        <item name="android:scrollbarTrackVertical">@drawable/scrollbar_vertical_track</item>
+        <item name="android:scrollbarSize">24dp</item>
+    </style>
+    
+    <style name="SpaceGnral">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="imgBottomBar">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <!--<item name="android:scaleType">fitXY</item>-->
+        <item name="android:focusable">true</item>
+        <item name="android:nextFocusDown">@null</item>
+        <item name="android:background">@drawable/state_item_focus_control_remote</item>
+    </style>
+
+    <style name="imgAllCategories">
+        <item name="android:layout_width">@dimen/element_square_category</item>
+        <item name="android:layout_height">@dimen/element_square_category</item>
+
+    </style>
+
+    <style name="textAllcategories">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:lines">2</item>
+    </style>
+
+    <style name="cardAllCategories">
+        <item name="android:layout_width">170dp</item>
+        <item name="android:layout_height">200dp</item>
+
+    </style>
+
+    <style name="styleRecycler">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:scrollbarFadeDuration">0</item>
+        <item name="android:overScrollMode">ifContentScrolls</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_vertical_track</item>
+    </style>
+
+
+    <style name="styleRecycler.with_padding">
+        <item name="android:layout_marginLeft">@dimen/games_rv_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/games_rv_margin_right</item>
+    </style>
+
+
+    <style name="general_back_header">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/state_button_back_header</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+
+    <!-- Tokens -->
+
+    <style name="tv_infoTokens">
+        <item name="android:gravity">center</item>
+        <item name="android:color">@color/white</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:text">@string/text_example</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="tv_infoTokens.number">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+    <style name="tv_infoTokens.text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/info_token_textsize_header_subtitle</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="flytContainerFgmnt">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <!--CATEGORIES-->
+    <style name="llytContainerHeaderAndContent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+
+    </style>
+
+    <style name="btnCloseDialog">
+        <item name="android:layout_width">@dimen/size_buttons_dialogs</item>
+        <item name="android:layout_height">@dimen/size_buttons_dialogs</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:src">@drawable/state_btn_close</item>
+        <item name="android:contentDescription">"TODO"</item>
+    </style>
+
+    <style name="Theme.App.Dialog.FullScreen" parent="Theme.AppCompat.Dialog">
+        <!-- (1)-->
+        <item name="android:windowIsFloating">false</item>
+        <!-- (2) -->
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+</resources>

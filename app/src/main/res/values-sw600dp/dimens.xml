@@ -1,0 +1,63 @@
+<resources>
+    <!--    TACTIL 7
+                width  1024
+                height: 600
+    -->
+
+    <!--ELEMENTS CATEGORY-->
+    <dimen name="element_square_category">120dp</dimen>
+
+    <!--    HEADER CATEGORY-->
+    <dimen name="header_category_height">120dp</dimen>
+    <dimen name="header_category_btnback_width">150dp</dimen>
+    <dimen name="header_category_btnback_heght">100dp</dimen>
+    <dimen name="header_category_btnback_padding">10dp</dimen>
+    <dimen name="header_category_btnbright_size">60dp</dimen>
+    <dimen name="header_category_btnbright_padding">5dp</dimen>
+    <dimen name="header_category_title_width">400dp</dimen>
+    <dimen name="header_category_title_height">80dp</dimen>
+    <dimen name="header_category_title_padding_bottom">10dp</dimen>
+    <dimen name="header_category_title_text_size">36sp</dimen>
+    <dimen name="header_category_image_size">110dp</dimen>
+    <dimen name="header_category_image_padding">20dp</dimen>
+
+    <!--    MAIN Ativity-->
+    <dimen name="main_category_text_size">16sp</dimen>
+    <dimen name="main_category_text_margin_bottom">60dp</dimen>
+
+    <!--    todo: (width_category X number of elements) + ((number elements-1) X item_category_width)-->
+    <dimen name="main_category_size">155dp</dimen>
+
+    <dimen name="space_cover_1">0dp</dimen>
+    <dimen name="oneCategories">200dp</dimen>       <!--  (item_category_width x 1)  + ((1-1) x space_cover_1) -->
+
+
+    <dimen name="space_cover_2">300dp</dimen>
+    <dimen name="twoCategories">700dp</dimen>       <!--  (item_category_width x 2)  + ((2-1) x space_cover_2) -->
+
+
+    <dimen name="space_cover_3">200dp</dimen>
+    <dimen name="threeCategories">1000dp</dimen>     <!--  (item_category_width x 3)  + ((3-1) x space_cover_3) -->
+
+
+    <dimen name="space_cover_4">120dp</dimen>
+    <dimen name="fourCategories">1024dp</dimen>      <!--  (item_category_width x 4)  + ((4-1) x space_cover_4) -->
+
+
+    <dimen name="space_cover_5">75dp</dimen>
+    <dimen name="fiveCategories">1024</dimen>     <!--  (item_category_width x 5)  + ((5-1) x space_cover_5) -->
+
+    <dimen name="space_cover_6">10dp</dimen>
+    <dimen name="sixCategories">1024dp</dimen>
+
+
+    <!--INFO TOKENS-->
+    <dimen name="info_token_textsize_header_title">22sp</dimen>
+    <dimen name="info_token_textsize_header_subtitle">20sp</dimen>
+    <dimen name="info_token_textsize_header_number">30sp</dimen>
+    <dimen name="info_token_item_textsize_name">26sp</dimen>
+    <dimen name="info_token_item_textsize_status">24sp</dimen>
+    <dimen name="info_token_item_textsize_subdata">16sp</dimen>
+
+
+</resources>

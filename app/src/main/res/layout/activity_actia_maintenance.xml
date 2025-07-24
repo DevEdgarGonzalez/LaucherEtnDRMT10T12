@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#34C5EE"
+    tools:context="com.actia.mexico.generic_2018_t10_t12.ActiaMaintenanceActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="48sp"
+        android:text="@string/title_window_actia_maintenance" />
+<ImageView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="20dp"
+    android:src="@drawable/actia"/>
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.ConstraintLayou xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/llytEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/state_btn_dialog_language"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+      <ImageView
+          android:id="@+id/imgvLanguageEnglish"
+          android:layout_width="150dp"
+          android:layout_height="120dp"
+          android:layout_marginTop="16dp"
+          android:layout_marginStart="16dp"
+          android:src="@drawable/flag_english"
+          />
+      <TextView
+          android:id="@+id/tvLanguageEnglish"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:gravity="center_vertical"
+          android:text="@string/language_english"
+          android:layout_marginStart="16dp"
+          android:textColor="@color/white"
+          app:layout_constraintBottom_toBottomOf="@id/imgvLanguageEnglish"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toEndOf="@id/imgvLanguageEnglish"
+          app:layout_constraintTop_toTopOf="@id/imgvLanguageEnglish" />
+
+    </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/llytSpanish"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:background="@drawable/state_btn_dialog_language"
+      app:layout_constraintTop_toBottomOf="@id/llytEnglish"
+      app:layout_constraintStart_toStartOf="@id/llytEnglish"
+      app:layout_constraintEnd_toEndOf="@id/llytEnglish">
+
+    <ImageView
+        android:id="@+id/imgvLanguageSpanish"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:src="@drawable/flag_spanish"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        />
+
+
+    <TextView
+        android:id="@+id/tvLanguageSpanish"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:text="@string/language_spanish"
+        android:textColor="@color/white"
+        />
+
+  </LinearLayout>
+
+</androidx.constraintlayout.ConstraintLayou>

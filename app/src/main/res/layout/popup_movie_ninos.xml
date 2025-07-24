@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="295px"
+            android:layout_height="350px"
+            android:layout_gravity="center"
+            android:layout_marginLeft="9dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgvCoverMovieChild"
+                android:layout_width="255px"
+                android:layout_height="320px"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+
+                />
+
+            <ImageButton
+                android:id="@+id/btnPlayMovieChild"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/state_item_focus_control_remote"
+                android:focusable="true"
+                android:src="@drawable/play" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtvTitleMovieChild"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/synopsis"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp">
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/txtvDescMovieChild"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_example_long"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:typeface="normal" />
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

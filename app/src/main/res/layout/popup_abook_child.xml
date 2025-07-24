@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_ninos_abooks"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingBottom="20dp"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/btnBackPlayAbookChild"
+                    style="@style/general_back_header"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/state_item_focus_control_remote"
+                    android:focusable="true"
+                    android:padding="15dp"
+                    android:src="@drawable/state_button_back_bar" />
+
+                <ImageView
+                    android:id="@+id/imgvCoverAbookChild"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginEnd="120dp"
+                    android:layout_marginBottom="120dp" />
+
+                <ImageButton
+                    android:id="@+id/btnPlayAbookchild"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ico_play_audiolibro_infantil"
+                    android:background="@drawable/state_item_focus_control_remote"
+                    android:focusable="true"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent30"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="horizontal">
+
+                    <Space android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"/>
+
+                    <ImageView
+                        android:id="@+id/volume_down_image_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="16dp"
+                        android:src="@drawable/volume_down_action"
+                        android:clickable="true"/>
+
+
+                    <SeekBar
+                        android:id="@+id/volume_seek_bar"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:layout_gravity="center_vertical"
+                        android:layout_toEndOf="@id/volume_down_image_view"
+                        android:layout_toStartOf="@id/volume_image_view"
+                        android:thumb="@drawable/ic_circle"/>
+
+                    <ImageView
+                        android:id="@+id/volume_image_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="16dp"
+                        android:src="@drawable/volume_up_action"
+                        android:clickable="true"/>
+
+                    <Space android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"/>
+
+
+
+                </LinearLayout>
+
+                <!--<ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_book_spine" />-->
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtvInitTimeAbookChild"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/time_default"
+                    android:textColor="@color/white"
+                    android:textSize="18px"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtvFinalTimeAbookChild"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/time_default"
+                    android:textColor="@color/white"
+                    android:textSize="18px"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <SeekBar
+                android:id="@+id/seekbAbookChild"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="8dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:focusable="false"
+                android:progressDrawable="@drawable/seek_bar_ab"
+                android:thumb="@drawable/seek_ball_ab_infantil" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtvTitleAbookChild"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grayGeneric"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                android:layout_marginTop="50dp"
+                android:text="@string/text_example" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/txtvDescAbookChild"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="22dp"
+                    android:text="@string/text_example_long"
+                    android:textColor="@color/grayGeneric"
+                    android:focusable="false"/>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

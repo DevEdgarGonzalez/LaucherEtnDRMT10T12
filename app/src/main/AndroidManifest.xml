@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.actia.mexico.launcher_t12_generico_2018">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_etn_blue"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning"
+        android:requestLegacyExternalStorage="true"
+        android:usesCleartextTraffic="true"
+        tools:replace="allowBackup, label">
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false"/>
+        <activity android:name="com.actia.help_movie.HelpMainActivity" android:exported="true"/>
+        <activity
+            android:name="com.actia.home_categories.MainActivity"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" android:exported="true"/>
+        <activity
+            android:name="com.actia.peliculas.PlayMovieActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" android:exported="true"/>
+        <activity
+            android:name="com.actia.multimedia.LectorMultimediaActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" android:exported="true"/>
+        <activity
+            android:name="com.actia.audiolibros.ABookLinearActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" android:exported="true"/>
+        <activity
+            android:name="com.actia.mexico.generic_2018_t10_t12.AdvertisingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" android:exported="true"/>
+        <activity
+            android:name="com.actia.mexico.generic_2018_t10_t12.LoadSDCardActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.actia.mexico.generic_2018_t10_t12.VideoInitActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" android:exported="true"/>
+        <activity
+            android:name="com.actia.home_categories.MainActivity$ShutDownActivity"
+            android:label="@string/app_name" android:exported="true"/>
+        <activity
+            android:name="com.actia.mexico.generic_2018_t10_t12.ErrorActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" android:exported="true"/>
+        <activity
+            android:name="com.actia.mexico.generic_2018_t10_t12.ActiaMaintenanceActivity"
+            android:label="@string/app_name" android:exported="true"/>
+        <activity
+            android:name="com.actia.drm.SettingsActivity"
+            android:screenOrientation="landscape" android:exported="true"/>
+        <activity
+            android:name="com.actia.drm.PlayerDRMActivity"
+            android:screenOrientation="landscape" android:exported="true"/>
+        <activity
+            android:name="com.actia.drm.ExoDRMActivity"
+            android:screenOrientation="landscape"
+            android:exported="true"/>
+            <!--android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" -->
+
+        <service
+            android:name="com.actia.music.MyMediaPlayerService"
+            android:enabled="true" />
+        <!--<receiver
+            android:name="com.actia.utilities.ReceiverServiceActia">
+            <intent-filter>
+                <action android:name="com.actia.mgc" />
+            </intent-filter>
+        </receiver>-->
+
+        <receiver
+            android:name="com.actia.utilities.utilities_ui.AdminReceiver"
+            android:label="@string/device_admin"
+            android:description="@string/device_admin_description"
+            android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/policies" />
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="com.actia.conciertos.ConcertActivity" android:exported="true"/>
+        <activity android:name="com.actia.peliculas.PeliculasActivity" android:exported="true"/>
+        <activity
+            android:name="com.actia.peliculas.TitlesMovieActivity"
+            android:label="@string/app_name" android:exported="true" />
+        <activity android:name="com.actia.music.MusicGenresActivity" android:exported="true"/>
+        <activity android:name="com.actia.music.PlayMusicActivity" android:exported="true"/>
+        <activity android:name="com.actia.games.GamesActivity" android:exported="true"/>
+        <activity
+            android:name="com.actia.ninos.NinosActivity"
+            android:label="@string/app_name" android:exported="true"/>
+        <activity android:name="com.actia.music_ninos.MusicNinosActivity" android:exported="true"/>
+        <activity android:name="com.actia.abook_ninos.AbookNinosActivity" android:exported="true"/>
+        <activity android:name="com.actia.movies_ninos.MoviesNinosActivity" android:exported="true"/>
+        <activity android:name="com.actia.audiolibros.PlayAbookActivity" android:exported="true"/>
+        <activity android:name="com.actia.nosotros.NosotrosMainActivity" android:exported="true"/>
+        <activity android:name="com.actia.games_ninos.GamesNinosActivity" android:exported="true"/>
+        <activity android:name="com.actia.menu_maintance.DialogInstallAPKActivity" android:exported="true"/>
+        <activity android:name="com.actia.drm.auto_tokens.InfoTokensActivity" android:exported="true"/>
+        <activity android:name="com.actia.audiolibros.AbookGenreActivity" android:exported="true"/>
+
+        <activity android:name="com.actia.help_movie.PlayAdvertisingpActivity" android:exported="true"/>
+        <service android:name="com.actia.iSeat.udp_read.ReadUDPDataService"
+            android:enabled="true"/>
+
+        <activity
+            android:name="com.actia.encuesta.EncuestaActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name="com.actia.mapas.Map_Activity"
+            android:label="@string/title_activity_mapas" android:exported="true"/>
+    </application>
+
+</manifest>

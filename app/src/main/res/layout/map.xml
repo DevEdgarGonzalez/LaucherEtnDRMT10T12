@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/lRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/frgMap"
+            class="com.actia.mapas.Map_Fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:id="@+id/spinner_relative_layour"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent50"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:id="@+id/spinner_progress_bar"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerInParent="true"
+                />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/back_image_view"
+            android:layout_width="170dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ico_back_black"
+            android:tint="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/speed_linear_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/speed_route"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"/>-->
+
+            <TextView
+                android:id="@+id/speed_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/speed_linear_layout"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal"
+            android:textSize="24sp">
+
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rumbo_route"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"/>-->
+
+            <TextView
+                android:id="@+id/course_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/centrar_image_view"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="16dp"
+            android:src="@drawable/centrar_gps" />
+
+    </RelativeLayout>
+</LinearLayout>

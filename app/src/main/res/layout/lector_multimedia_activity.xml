@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rlytParentContainerWe"
+    android:background="@drawable/fondo_general"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llytContentDirectoriesWe"
+        style="@style/SpaceGnral"
+        android:visibility="invisible"
+        android:orientation="vertical">
+        <LinearLayout style="@style/llytContainerHeaderAndContent"
+            android:orientation="vertical">
+
+            <include layout="@layout/header_category" />
+
+
+            <FrameLayout
+                android:id="@+id/flytContainerMultimediaMain"
+                style="@style/SpaceGnral"/>
+
+        </LinearLayout>
+
+
+        <!--<include
+            layout="@layout/bottom_bar" />-->
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/llytContainerParentMultimedia"
+        style="@style/SpaceGnral"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

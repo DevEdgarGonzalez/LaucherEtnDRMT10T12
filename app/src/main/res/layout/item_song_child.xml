@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center|left"
+    android:id="@+id/rlytSongChild"
+    android:orientation="horizontal"
+
+
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/state_rlyt_list_ninos">
+
+        <TextView
+            android:id="@+id/txtvTitleSongChild"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="@string/text_example"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@drawable/item_selector_txt_music_children"
+            android:textStyle="bold"
+            android:typeface="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/txtvTimeSongChild"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toEndOf="@+id/txtvAuthorSongChild"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtvTimeSongChild"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/text_example"
+            android:textColor="@drawable/item_selector_txt_music_children"
+            android:typeface="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/txtvTitleSongChild"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtvAuthorSongChild"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtvTitleSongChild"
+            android:padding="7dp"
+            android:text="@string/text_example"
+            android:textColor="@drawable/item_selector_txt_music_children"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            android:visibility="invisible" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

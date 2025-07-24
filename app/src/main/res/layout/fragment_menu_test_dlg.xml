@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="50dp"
+    android:orientation="vertical"
+    tools:context="com.actia.menu_maintance.MenuTestDlgFragment">
+
+    <ImageButton
+        android:id="@+id/ibtnCloseMenuTesting"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:src="@drawable/state_btn_close" />
+
+    <Button
+        android:id="@+id/btnOpenAppBenchMarkMenuTesting"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="AppTest" />
+
+
+</LinearLayout>

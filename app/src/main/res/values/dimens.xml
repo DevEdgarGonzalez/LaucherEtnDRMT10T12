@@ -1,0 +1,133 @@
+<resources>
+
+    <!--ELEMENTS CATEGORY-->
+    <dimen name="element_square_category">175dp</dimen>
+
+    <!--    HEADER CATEGORY-->
+    <dimen name="header_category_height">180dp</dimen>
+    <dimen name="header_category_btnback_width">200dp</dimen>
+    <dimen name="header_category_btnback_heght">180dp</dimen>
+    <dimen name="header_category_btnback_padding">15dp</dimen>
+    <dimen name="header_category_btnbright_size">80dp</dimen>
+    <dimen name="header_category_btnbright_padding">10dp</dimen>
+    <dimen name="header_category_title_width">400dp</dimen>
+    <dimen name="header_category_title_height">100dp</dimen>
+    <dimen name="header_category_title_padding_bottom">10dp</dimen>
+    <dimen name="header_category_title_text_size">46sp</dimen>
+    <dimen name="header_category_image_size">180dp</dimen>
+    <dimen name="header_category_image_padding">40dp</dimen>
+
+
+
+    <!--GAMES-->
+    <dimen name="games_fgmnt_margin">30dp</dimen>
+    <dimen name="games_rv_margin_left">100dp</dimen>
+    <dimen name="games_rv_margin_right">10dp</dimen>
+    <dimen name="games_item_name_textsize">20sp</dimen>
+
+
+    <!--    MAIN Ativity-->
+    <dimen name="main_category_text_size">30sp</dimen>
+    <dimen name="main_category_text_margin_bottom">80dp</dimen>
+
+
+    <!--    todo: (width_category X number of elements) + ((number elements-1) X item_category_width)-->
+    <dimen name="main_category_size">200dp</dimen>
+
+    <dimen name="space_cover_1">0dp</dimen>
+    <dimen name="oneCategories">200dp</dimen>       <!--  (item_category_width x 1)  + ((1-1) x space_cover_1) -->
+
+
+    <dimen name="space_cover_2">300dp</dimen>
+    <dimen name="twoCategories">700dp</dimen>       <!--  (item_category_width x 2)  + ((2-1) x space_cover_2) -->
+
+
+    <dimen name="space_cover_3">200dp</dimen>
+    <dimen name="threeCategories">1000dp</dimen>     <!--  (item_category_width x 3)  + ((3-1) x space_cover_3) -->
+
+
+    <dimen name="space_cover_4">120dp</dimen>
+    <dimen name="fourCategories">1160dp</dimen>      <!--  (item_category_width x 4)  + ((4-1) x space_cover_4) -->
+
+
+    <dimen name="space_cover_5">75dp</dimen>
+    <dimen name="fiveCategories">1300dp</dimen>     <!--  (item_category_width x 5)  + ((5-1) x space_cover_5) -->
+
+    <dimen name="space_cover_6">18dp</dimen>
+    <dimen name="sixCategories">1300dp</dimen>
+
+
+    <!--INFO TOKENS-->
+    <dimen name="info_token_size_topbar">100dp</dimen>
+    <dimen name="info_token_textsize_header_title">28sp</dimen>
+    <dimen name="info_token_textsize_header_subtitle">24sp</dimen>
+    <dimen name="info_token_textsize_header_number">40sp</dimen>
+    <dimen name="info_token_item_textsize_name">34sp</dimen>
+    <dimen name="info_token_item_textsize_status">32sp</dimen>
+    <dimen name="info_token_item_textsize_subdata">20sp</dimen>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="size_item_main">200dp</dimen>
+    <dimen name="size_item_category">250dp</dimen>
+
+    <dimen name="btn_small_player">60dp</dimen>
+    <dimen name="btn_play_player">80dp</dimen>
+
+    <dimen name="sizeItemBotBar">70dp</dimen>
+    <dimen name="margin_fragments">50dp</dimen>
+
+
+    <dimen name="text_app">20sp</dimen>
+
+
+
+    <!--Card itemRentangule-->
+    <dimen name="card_rectangule_width">200dp</dimen>
+    <dimen name="card_rectangule_heigth">260dp</dimen>
+
+
+
+    <dimen name="elelmen_rectangule_sideX">150dp</dimen>
+    <dimen name="elelmen_rectangule_sideY">200dp</dimen>
+
+    <!--SUBGENRE TYPE_BUTTONS-->
+    <dimen name="category_btn_width">300dp</dimen>
+    <dimen name="category_btn_heigth">80dp</dimen>
+
+
+    <!--CHILDREN-->
+    <dimen name="marginTopChildren">100dp</dimen>
+    <dimen name="marginRigthChildren">220dp</dimen>
+
+    <dimen name="size_buttons_dialogs">80dp</dimen>
+
+
+    <dimen name="bluetooth_icon">50dp</dimen>
+
+
+    <dimen name="bottombar_height">140dp</dimen>
+    <dimen name="bottombar_padding_top">35dp</dimen>
+    <dimen name="bottombar_padding_bottom">35dp</dimen>
+
+
+    <dimen name="size_bar_web_view">60dp</dimen>
+
+
+
+
+   <!--  (item_category_width x 6)  + ((6-1) x space_cover_6) -->
+</resources>

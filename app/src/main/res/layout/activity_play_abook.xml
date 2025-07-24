@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_general"
+    android:orientation="horizontal"
+    tools:context="com.actia.audiolibros.PlayAbookActivity">
+
+    <include
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".3"
+        layout="@layout/header_category" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".7"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:gravity="center"
+            tools:ignore="NestedWeights">
+
+
+            <ImageView
+                android:id="@+id/imgvCoverPlayAbook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/imgvPlayPlayAbook"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:scaleType="fitXY" />
+
+
+            <ImageView
+                android:id="@+id/imgvPlayPlayAbook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/control_media"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/state_item_focus_control_remote"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/play" />
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/control_media"
+                android:layout_alignParentEnd="true"
+                android:background="@color/Black0Percent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/volume_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight=".1"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="16dp"
+                    android:clickable="true"
+                    android:src="@drawable/volume_up_action" />
+
+
+                <SeekBar
+                    android:id="@+id/volume_seek_bar"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="270dp"
+                    android:layout_height="0dp"
+                    android:layout_weight=".8"
+                    android:layout_gravity="center"
+                    android:rotation="270"
+                    android:thumb="@drawable/ic_circle" />
+
+                <ImageView
+                    android:id="@+id/volume_down_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight=".1"
+                    android:layout_gravity="center_horizontal"
+                    android:clickable="true"
+                    android:src="@drawable/volume_down_action" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/control_media"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/Black0Percent"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp">
+
+
+                <TextView
+                    android:id="@+id/lblTimeInitialPlayAbook"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:text="@string/time_default"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <SeekBar
+                    android:id="@+id/seekbProgressPlayAbook"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:progressDrawable="@drawable/seek_bar_ab"
+                    android:thumb="@drawable/seek_ball_ab_infantil" />
+
+
+                <TextView
+                    android:id="@+id/lblTimeFinalPlayAbook"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:text="@string/time_default"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:scrollbarFadeDuration="30000"
+            android:scrollbarSize="3dp"
+            android:scrollbarThumbVertical="@drawable/scroll_gray_dark"
+            android:scrollbars="vertical"
+            android:verticalScrollbarPosition="right"
+            tools:ignore="NestedWeights">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tvNamePlayAbook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/txtDescPlayAbook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:background="@drawable/state_item_focus_control_remote"
+                    android:focusable="true"/>
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

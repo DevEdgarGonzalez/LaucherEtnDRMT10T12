@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container_item_list_music"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:focusableInTouchMode="false"
+    android:paddingLeft="20dp"
+    android:gravity="center|left"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_control_songs_list"
+    android:focusable="false">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="50dp"
+        android:background="@drawable/item_selector_frid_music_gnr"
+        android:focusable="false"
+        android:focusableInTouchMode="false">
+
+        <TextView
+            android:id="@+id/textView_titulo_song_music"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:padding="7dp"
+            android:text="@string/text_example_medium"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@drawable/item_selector_txt_music_children"
+            android:textStyle="bold"
+            android:typeface="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView_tiempo_song_music"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView_tiempo_song_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/time_final_default"
+            android:textColor="@drawable/item_selector_txt_music_children"
+            android:typeface="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView_autor_song_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_titulo_song_music"
+            android:padding="7dp"
+            android:text="@string/text_example"
+            android:textColor="@drawable/item_selector_txt_music_children"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            android:visibility="invisible" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlytParentMultimediaSlide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Black0Percent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnBackBasePopUpMultimedia"
+            android:layout_width="120dp"
+            android:layout_height="84dp"
+            android:layout_gravity="center"
+            android:background="@drawable/state_item_focus_control_remote"
+            android:focusable="true"
+            android:scaleType="fitXY"
+            android:nextFocusRight="@id/btnNextBasePopUpMultimedia"
+            android:src="@drawable/btn_back" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vpagerCoverPopUpMultimedia"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="40dp"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:background="@null" />
+
+        <ImageButton
+            android:id="@+id/btnNextBasePopUpMultimedia"
+            android:layout_width="120dp"
+            android:layout_height="84dp"
+            android:layout_gravity="center"
+            android:background="@drawable/state_item_focus_control_remote"
+            android:focusable="true"
+            android:nextFocusLeft="@id/btnBackBasePopUpMultimedia"
+            android:scaleType="fitXY"
+            android:src="@drawable/btn_forw" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/ibtnCloseDialogWeSlide"
+        style="@style/btnCloseDialog"
+        android:background="@drawable/state_item_focus_control_remote"
+        android:focusable="true"
+        android:nextFocusLeft="@id/btnBackBasePopUpMultimedia"
+        android:nextFocusRight="@id/btnNextBasePopUpMultimedia"
+        android:nextFocusDown="@id/btnNextBasePopUpMultimedia">
+
+        <requestFocus />
+    </ImageButton>
+
+</RelativeLayout>

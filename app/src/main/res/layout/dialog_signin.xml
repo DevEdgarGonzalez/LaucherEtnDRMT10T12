@@ -1,0 +1,268 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/status_config"
+            android:layout_width="39dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/circle_red" />
+
+        <TextView
+            android:id="@+id/textview_config"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/default_seat"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/versionname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingTop="15dp"
+            android:text="@string/app_name" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lytLoginBlock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="sans-serif"
+            android:hint="Password"
+            android:inputType="numberPassword" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel" />
+
+            <Button
+                android:id="@+id/ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/cancel"
+                android:text="@string/ok" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lytDataBlock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/fileManager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opc_File_manager"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/settingAndroid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/fileManager"
+                android:text="@string/opc_settings_android"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_apache"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/settingAndroid"
+                android:text="@string/opc_web_browser"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_tokens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/btn_reboot"
+                android:text="@string/opc_tokens"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_reboot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/btn_apache"
+                android:text="@string/opc_reboot"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_estrenos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/btn_tokens"
+                android:text="@string/opc_estrenos"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/btn_sendlog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opc_send_log"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btn_details_tokens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15px"
+                android:layout_toRightOf="@+id/btn_sendlog"
+                android:text="@string/opc_detail_tokens"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btn_installapk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/btn_details_tokens"
+                android:text="@string/opc_install"
+                android:textStyle="bold" />
+
+
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/togglebuttonCloseLauncher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="19dp"
+                android:layout_toLeftOf="@+id/togglebuttonBar"
+                android:gravity="center"
+                android:textOff="@string/opc_open_launcher"
+                android:textOn="@string/opc_close_launcher"
+                android:textSize="50dp" />
+
+            <Switch
+                android:id="@+id/togglebuttonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                android:gravity="center"
+                android:textOff="@string/opc_bar_off"
+                android:textOn="@string/opc_bar_on"
+                android:textSize="50dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtvTypeRoot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/opc_config_bus"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/idDevice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="sans-serif"
+            android:hint="@string/seat"
+            android:inputType="number"
+            android:maxLength="2" />
+
+        <EditText
+            android:id="@+id/idBus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="sans-serif"
+            android:hint="@string/text_id_bus"
+            android:inputType="number"
+            android:maxLength="6" />
+
+        <Button
+            android:id="@+id/btn_config"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opc_config" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/png_audiobook1" android:duration="500"/>
+    <item android:drawable="@drawable/png_audiobook2" android:duration="500"/>
+    <item android:drawable="@drawable/png_audiobook3" android:duration="500"/>
+    <item android:drawable="@drawable/png_audiobook4" android:duration="500"/>
+    <item android:drawable="@drawable/png_audiobook5" android:duration="500"/>
+    <item android:drawable="@drawable/png_audiobook6" android:duration="500"/>
+    <item android:drawable="@drawable/png_audiobook7" android:duration="500"/>
+    <item android:drawable="@drawable/png_audiobook8" android:duration="500"/>
+    <item android:drawable="@drawable/png_audiobook7" android:duration="500"/>
+    <item android:drawable="@drawable/png_audiobook6" android:duration="500"/>
+    <item android:drawable="@drawable/png_audiobook5" android:duration="500"/>
+    <item android:drawable="@drawable/png_audiobook4" android:duration="500"/>
+    <item android:drawable="@drawable/png_audiobook3" android:duration="500"/>
+    <item android:drawable="@drawable/png_audiobook2" android:duration="500"/>
+    <item android:drawable="@drawable/png_audiobook1" android:duration="500"/>
+</animation-list>

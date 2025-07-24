@@ -1,0 +1,331 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .externalToolBuilders\
+* .externalToolBuilders\LauncherJNI_Builder.launch
+* android-4.2.2_r1.jar
+* doc\
+* doc\allclasses-frame.html
+* doc\allclasses-noframe.html
+* doc\com\
+* doc\com\actia\
+* doc\com\actia\audiolibros\
+* doc\com\actia\audiolibros\ABookGeneralActivity.html
+* doc\com\actia\audiolibros\AdapterAudioBooks.html
+* doc\com\actia\audiolibros\Fragment_ABook.html
+* doc\com\actia\audiolibros\PlayABooksGnralActivity.RunnableInitMP.html
+* doc\com\actia\audiolibros\PlayABooksGnralActivity.html
+* doc\com\actia\audiolibros\SDCardABook.html
+* doc\com\actia\audiolibros\class-use\
+* doc\com\actia\audiolibros\class-use\ABookGeneralActivity.html
+* doc\com\actia\audiolibros\class-use\AdapterAudioBooks.html
+* doc\com\actia\audiolibros\class-use\Fragment_ABook.html
+* doc\com\actia\audiolibros\class-use\PlayABooksGnralActivity.RunnableInitMP.html
+* doc\com\actia\audiolibros\class-use\PlayABooksGnralActivity.html
+* doc\com\actia\audiolibros\class-use\SDCardABook.html
+* doc\com\actia\audiolibros\package-frame.html
+* doc\com\actia\audiolibros\package-summary.html
+* doc\com\actia\audiolibros\package-tree.html
+* doc\com\actia\audiolibros\package-use.html
+* doc\com\actia\mexico\
+* doc\com\actia\mexico\launcher2014_2\
+* doc\com\actia\mexico\launcher2014_2\ActiaMaintanceActivity.html
+* doc\com\actia\mexico\launcher2014_2\AdvertisingActivity.html
+* doc\com\actia\mexico\launcher2014_2\BuildConfig.html
+* doc\com\actia\mexico\launcher2014_2\ConfigMasterMGC.html
+* doc\com\actia\mexico\launcher2014_2\HomeAdapter.html
+* doc\com\actia\mexico\launcher2014_2\HomeGamesAdapter.html
+* doc\com\actia\mexico\launcher2014_2\ItemsHome.html
+* doc\com\actia\mexico\launcher2014_2\LoadGamesHome.LoadHomeGamesAsynk.html
+* doc\com\actia\mexico\launcher2014_2\LoadGamesHome.html
+* doc\com\actia\mexico\launcher2014_2\LoadHome.html
+* doc\com\actia\mexico\launcher2014_2\LoadSDCardActivity.html
+* doc\com\actia\mexico\launcher2014_2\MainActivity.MenuGames.html
+* doc\com\actia\mexico\launcher2014_2\MainActivity.html
+* doc\com\actia\mexico\launcher2014_2\R.anim.html
+* doc\com\actia\mexico\launcher2014_2\R.attr.html
+* doc\com\actia\mexico\launcher2014_2\R.color.html
+* doc\com\actia\mexico\launcher2014_2\R.dimen.html
+* doc\com\actia\mexico\launcher2014_2\R.drawable.html
+* doc\com\actia\mexico\launcher2014_2\R.html
+* doc\com\actia\mexico\launcher2014_2\R.id.html
+* doc\com\actia\mexico\launcher2014_2\R.layout.html
+* doc\com\actia\mexico\launcher2014_2\R.menu.html
+* doc\com\actia\mexico\launcher2014_2\R.string.html
+* doc\com\actia\mexico\launcher2014_2\R.style.html
+* doc\com\actia\mexico\launcher2014_2\R.styleable.html
+* doc\com\actia\mexico\launcher2014_2\VideoInitActivity.RunnableInitMP.html
+* doc\com\actia\mexico\launcher2014_2\VideoInitActivity.html
+* doc\com\actia\mexico\launcher2014_2\class-use\
+* doc\com\actia\mexico\launcher2014_2\class-use\ActiaMaintanceActivity.html
+* doc\com\actia\mexico\launcher2014_2\class-use\AdvertisingActivity.html
+* doc\com\actia\mexico\launcher2014_2\class-use\BuildConfig.html
+* doc\com\actia\mexico\launcher2014_2\class-use\ConfigMasterMGC.html
+* doc\com\actia\mexico\launcher2014_2\class-use\HomeAdapter.html
+* doc\com\actia\mexico\launcher2014_2\class-use\HomeGamesAdapter.html
+* doc\com\actia\mexico\launcher2014_2\class-use\ItemsHome.html
+* doc\com\actia\mexico\launcher2014_2\class-use\LoadGamesHome.LoadHomeGamesAsynk.html
+* doc\com\actia\mexico\launcher2014_2\class-use\LoadGamesHome.html
+* doc\com\actia\mexico\launcher2014_2\class-use\LoadHome.html
+* doc\com\actia\mexico\launcher2014_2\class-use\LoadSDCardActivity.html
+* doc\com\actia\mexico\launcher2014_2\class-use\MainActivity.MenuGames.html
+* doc\com\actia\mexico\launcher2014_2\class-use\MainActivity.html
+* doc\com\actia\mexico\launcher2014_2\class-use\R.anim.html
+* doc\com\actia\mexico\launcher2014_2\class-use\R.attr.html
+* doc\com\actia\mexico\launcher2014_2\class-use\R.color.html
+* doc\com\actia\mexico\launcher2014_2\class-use\R.dimen.html
+* doc\com\actia\mexico\launcher2014_2\class-use\R.drawable.html
+* doc\com\actia\mexico\launcher2014_2\class-use\R.html
+* doc\com\actia\mexico\launcher2014_2\class-use\R.id.html
+* doc\com\actia\mexico\launcher2014_2\class-use\R.layout.html
+* doc\com\actia\mexico\launcher2014_2\class-use\R.menu.html
+* doc\com\actia\mexico\launcher2014_2\class-use\R.string.html
+* doc\com\actia\mexico\launcher2014_2\class-use\R.style.html
+* doc\com\actia\mexico\launcher2014_2\class-use\R.styleable.html
+* doc\com\actia\mexico\launcher2014_2\class-use\VideoInitActivity.RunnableInitMP.html
+* doc\com\actia\mexico\launcher2014_2\class-use\VideoInitActivity.html
+* doc\com\actia\mexico\launcher2014_2\package-frame.html
+* doc\com\actia\mexico\launcher2014_2\package-summary.html
+* doc\com\actia\mexico\launcher2014_2\package-tree.html
+* doc\com\actia\mexico\launcher2014_2\package-use.html
+* doc\com\actia\alistMovies\
+* doc\com\actia\alistMovies\AdapterMovies.html
+* doc\com\actia\alistMovies\Fragment_movies.html
+* doc\com\actia\alistMovies\Movie.html
+* doc\com\actia\alistMovies\MoviesActivity.html
+* doc\com\actia\alistMovies\PlayMovieActivity.RunnableInitMP.html
+* doc\com\actia\alistMovies\PlayMovieActivity.html
+* doc\com\actia\alistMovies\SpinnerAdapterGenre.html
+* doc\com\actia\alistMovies\class-use\
+* doc\com\actia\alistMovies\class-use\AdapterMovies.html
+* doc\com\actia\alistMovies\class-use\Fragment_movies.html
+* doc\com\actia\alistMovies\class-use\Movie.html
+* doc\com\actia\alistMovies\class-use\MoviesActivity.html
+* doc\com\actia\alistMovies\class-use\PlayMovieActivity.RunnableInitMP.html
+* doc\com\actia\alistMovies\class-use\PlayMovieActivity.html
+* doc\com\actia\alistMovies\class-use\SpinnerAdapterGenre.html
+* doc\com\actia\alistMovies\package-frame.html
+* doc\com\actia\alistMovies\package-summary.html
+* doc\com\actia\alistMovies\package-tree.html
+* doc\com\actia\alistMovies\package-use.html
+* doc\com\actia\musica\
+* doc\com\actia\musica\Fragment_Controls.CallChangeItemsListMsuic.html
+* doc\com\actia\musica\Fragment_Controls.html
+* doc\com\actia\musica\Fragment_Genre.CallbacksGeneros.html
+* doc\com\actia\musica\Fragment_Genre.html
+* doc\com\actia\musica\Fragment_List.html
+* doc\com\actia\musica\GenreAdapter.html
+* doc\com\actia\musica\ListAdapter.html
+* doc\com\actia\musica\MusicActivity.html
+* doc\com\actia\musica\MyMediaPlayerService.ServiceBinder.html
+* doc\com\actia\musica\MyMediaPlayerService.html
+* doc\com\actia\musica\Song.html
+* doc\com\actia\musica\class-use\
+* doc\com\actia\musica\class-use\Fragment_Controls.CallChangeItemsListMsuic.html
+* doc\com\actia\musica\class-use\Fragment_Controls.html
+* doc\com\actia\musica\class-use\Fragment_Genre.CallbacksGeneros.html
+* doc\com\actia\musica\class-use\Fragment_Genre.html
+* doc\com\actia\musica\class-use\Fragment_List.html
+* doc\com\actia\musica\class-use\GenreAdapter.html
+* doc\com\actia\musica\class-use\ListAdapter.html
+* doc\com\actia\musica\class-use\MusicActivity.html
+* doc\com\actia\musica\class-use\MyMediaPlayerService.ServiceBinder.html
+* doc\com\actia\musica\class-use\MyMediaPlayerService.html
+* doc\com\actia\musica\class-use\Song.html
+* doc\com\actia\musica\package-frame.html
+* doc\com\actia\musica\package-summary.html
+* doc\com\actia\musica\package-tree.html
+* doc\com\actia\musica\package-use.html
+* doc\com\actia\ninos\
+* doc\com\actia\ninos\AdapterAudioBooksChildren.html
+* doc\com\actia\ninos\AdapterMoviesChildren.html
+* doc\com\actia\ninos\AudioBook.html
+* doc\com\actia\ninos\AudioBooksChildrenActivity.html
+* doc\com\actia\ninos\ConfigChildrenRoom.html
+* doc\com\actia\ninos\FragmentMoviesChildren.html
+* doc\com\actia\ninos\LoadKidsRoom.html
+* doc\com\actia\ninos\MoviesChildrenActivity.html
+* doc\com\actia\ninos\MusicAdapterChildren.html
+* doc\com\actia\ninos\MusicChildrenActivity.html
+* doc\com\actia\ninos\NinosActivity.html
+* doc\com\actia\ninos\PlayABookActivity.RunnableInitMP.html
+* doc\com\actia\ninos\PlayABookActivity.html
+* doc\com\actia\ninos\class-use\
+* doc\com\actia\ninos\class-use\AdapterAudioBooksChildren.html
+* doc\com\actia\ninos\class-use\AdapterMoviesChildren.html
+* doc\com\actia\ninos\class-use\AudioBook.html
+* doc\com\actia\ninos\class-use\AudioBooksChildrenActivity.html
+* doc\com\actia\ninos\class-use\ConfigChildrenRoom.html
+* doc\com\actia\ninos\class-use\FragmentMoviesChildren.html
+* doc\com\actia\ninos\class-use\LoadKidsRoom.html
+* doc\com\actia\ninos\class-use\MoviesChildrenActivity.html
+* doc\com\actia\ninos\class-use\MusicAdapterChildren.html
+* doc\com\actia\ninos\class-use\MusicChildrenActivity.html
+* doc\com\actia\ninos\class-use\NinosActivity.html
+* doc\com\actia\ninos\class-use\PlayABookActivity.RunnableInitMP.html
+* doc\com\actia\ninos\class-use\PlayABookActivity.html
+* doc\com\actia\ninos\package-frame.html
+* doc\com\actia\ninos\package-summary.html
+* doc\com\actia\ninos\package-tree.html
+* doc\com\actia\ninos\package-use.html
+* doc\com\actia\util\
+* doc\com\actia\util\AsyncIntents.html
+* doc\com\actia\util\AsyncLoadContentAB.html
+* doc\com\actia\util\AsyncLoadGenres.html
+* doc\com\actia\util\AutoStart.html
+* doc\com\actia\util\CheckExternalStorage.html
+* doc\com\actia\util\ColorsList.html
+* doc\com\actia\util\ConfigDevice.ConfigDeviceAsynk.html
+* doc\com\actia\util\ConfigDevice.html
+* doc\com\actia\util\ConfigDevice.setConfigDeviceAsynk.html
+* doc\com\actia\util\ErrorActivity.html
+* doc\com\actia\util\ExternalStorageReceiver.html
+* doc\com\actia\util\FileExtensionFilterImages.html
+* doc\com\actia\util\FileExtensionFilterMusic.html
+* doc\com\actia\util\FileExtensionFilterVideo.html
+* doc\com\actia\util\GenreSpinner.html
+* doc\com\actia\util\HandleXML.html
+* doc\com\actia\util\ImageWorker.html
+* doc\com\actia\util\MediaFileFunctions.html
+* doc\com\actia\util\MenuMaintance.html
+* doc\com\actia\util\MetaTag.html
+* doc\com\actia\util\OnCompleteLoadABook.html
+* doc\com\actia\util\OnCompleteLoadGenre.html
+* doc\com\actia\util\OnCompleteReadTxtFile.html
+* doc\com\actia\util\OnCompleteSearchGenre.html
+* doc\com\actia\util\OnFinishConfigListener.html
+* doc\com\actia\util\OnLoadCompleteKidsRoom.html
+* doc\com\actia\util\OnLoadConfigDevice.html
+* doc\com\actia\util\OnLoadGameHome.html
+* doc\com\actia\util\OnLoadHome.html
+* doc\com\actia\util\ReadFileExternalStorage.html
+* doc\com\actia\util\ReceiverServiceActia.html
+* doc\com\actia\util\ShutDownActivity.html
+* doc\com\actia\util\SpinAdapterGenre.html
+* doc\com\actia\util\UtilsMediaPlayer.html
+* doc\com\actia\util\class-use\
+* doc\com\actia\util\class-use\AsyncIntents.html
+* doc\com\actia\util\class-use\AsyncLoadContentAB.html
+* doc\com\actia\util\class-use\AsyncLoadGenres.html
+* doc\com\actia\util\class-use\AutoStart.html
+* doc\com\actia\util\class-use\CheckExternalStorage.html
+* doc\com\actia\util\class-use\ColorsList.html
+* doc\com\actia\util\class-use\ConfigDevice.ConfigDeviceAsynk.html
+* doc\com\actia\util\class-use\ConfigDevice.html
+* doc\com\actia\util\class-use\ConfigDevice.setConfigDeviceAsynk.html
+* doc\com\actia\util\class-use\ErrorActivity.html
+* doc\com\actia\util\class-use\ExternalStorageReceiver.html
+* doc\com\actia\util\class-use\FileExtensionFilterImages.html
+* doc\com\actia\util\class-use\FileExtensionFilterMusic.html
+* doc\com\actia\util\class-use\FileExtensionFilterVideo.html
+* doc\com\actia\util\class-use\GenreSpinner.html
+* doc\com\actia\util\class-use\HandleXML.html
+* doc\com\actia\util\class-use\ImageWorker.html
+* doc\com\actia\util\class-use\MediaFileFunctions.html
+* doc\com\actia\util\class-use\MenuMaintance.html
+* doc\com\actia\util\class-use\MetaTag.html
+* doc\com\actia\util\class-use\OnCompleteLoadABook.html
+* doc\com\actia\util\class-use\OnCompleteLoadGenre.html
+* doc\com\actia\util\class-use\OnCompleteReadTxtFile.html
+* doc\com\actia\util\class-use\OnCompleteSearchGenre.html
+* doc\com\actia\util\class-use\OnFinishConfigListener.html
+* doc\com\actia\util\class-use\OnLoadCompleteKidsRoom.html
+* doc\com\actia\util\class-use\OnLoadConfigDevice.html
+* doc\com\actia\util\class-use\OnLoadGameHome.html
+* doc\com\actia\util\class-use\OnLoadHome.html
+* doc\com\actia\util\class-use\ReadFileExternalStorage.html
+* doc\com\actia\util\class-use\ReceiverServiceActia.html
+* doc\com\actia\util\class-use\ShutDownActivity.html
+* doc\com\actia\util\class-use\SpinAdapterGenre.html
+* doc\com\actia\util\class-use\UtilsMediaPlayer.html
+* doc\com\actia\util\package-frame.html
+* doc\com\actia\util\package-summary.html
+* doc\com\actia\util\package-tree.html
+* doc\com\actia\util\package-use.html
+* doc\constant-values.html
+* doc\deprecated-list.html
+* doc\help-doc.html
+* doc\index-files\
+* doc\index-files\index-1.html
+* doc\index-files\index-10.html
+* doc\index-files\index-11.html
+* doc\index-files\index-12.html
+* doc\index-files\index-13.html
+* doc\index-files\index-14.html
+* doc\index-files\index-15.html
+* doc\index-files\index-16.html
+* doc\index-files\index-17.html
+* doc\index-files\index-18.html
+* doc\index-files\index-19.html
+* doc\index-files\index-2.html
+* doc\index-files\index-20.html
+* doc\index-files\index-21.html
+* doc\index-files\index-22.html
+* doc\index-files\index-3.html
+* doc\index-files\index-4.html
+* doc\index-files\index-5.html
+* doc\index-files\index-6.html
+* doc\index-files\index-7.html
+* doc\index-files\index-8.html
+* doc\index-files\index-9.html
+* doc\index.html
+* doc\overview-frame.html
+* doc\overview-summary.html
+* doc\overview-tree.html
+* doc\package-list
+* doc\resources\
+* doc\resources\background.gif
+* doc\resources\tab.gif
+* doc\resources\titlebar.gif
+* doc\resources\titlebar_end.gif
+* doc\stylesheet.css
+* ic_launcher-web.png
+* make5740-1.bat
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* jni\ => app\src\main\jni\
+* libs\armeabi\libcom_jni.so => app\src\main\jniLibs\armeabi\libcom_jni.so
+* libs\RootTools2.6.jar => app\libs\RootTools2.6.jar
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Generals-->
+    <string name="app_name" translatable="false">LauncherBT_MP_MS_ETN_MAX</string>
+    <string name="time_default" translatable="false">00:00</string>
+    <string name="time_final_default" translatable="false">03:10</string>
+    <string name="error_in_this_file">Error in this file:</string>
+    <string name="error_not_avaliable">No disponible</string>
+    <string name="no_title">Sin titulo</string>
+    <string name="genres">Géneros</string>
+    <string name="ok">Ok</string>
+    <string name="error"> error </string>
+    <string name="preposition_of"> de </string>
+    <string name="destroy_service">destroy service</string>en
+    <string name="disconnected_service">servicio desconectado</string>
+    <string name="error_current_file">Error en el archivo actual: </string>
+    <string name="update_banners">Update Banners</string>
+    <string name="update_banners_wait_please">Update banners,wait please</string>
+    <string name="title_load_home">"Load Home, wa1it please"</string>
+    <string name="not_games_avaliable">No hay juegos disponibles</string>
+    <string name="not_movies_avaliable">No hay peliculas disponibles</string>
+    <string name="no_connection">No hay conexión a Internet/No internet connection</string>
+    <string name="volume">volumen</string>
+    <string name="load_content">Load Content...</string>
+    <string name="connecting">Connecting...</string>
+    <string name="autostart">AutoStart</string>
+    <string name="intent_deteccted">Intent Detected.</string>
+    <string name="command_not_detected">Command not detected</string>
+
+    <!-- Video-->
+    <string name="clear">Clear</string>
+    <string name="play">Reproducir</string>
+    <string name="load_wait_please">Load, wait please</string>
+    <string name="video_help_not_avaliable">El video de ayuda no esta disponible por el momento</string>
+
+    <!-- Abooks-->
+    <string name="generos">Géneros</string>
+    <string name="error_no_abooks_were_found">No se encontraron audiolibros</string>
+    <string name="description_not_avaliable">Descripcion no disponible</string>
+
+    <!-- Concert-->
+    <string name="synopsis">Sinopsis:</string>
+
+    <!-- Music -->
+    <string name="name_song">Nombre</string>
+    <string name="time_song">Tiempo</string>
+    <string name="my_music_player">My Music Player</string>
+    <string name="now_playing">Now Playing: "Rain"</string>
+    <string name="error_play_file">No se puede reproducir el archivo</string>
+    <string name="error_no_music_path">No existe el directorio Musica</string>
+    <string name="update_list">Update List</string>
+    <string name="error_no_path_music_children">No existe el directorio de música para niños</string>
+    <string name="name_song_children">Nombre de la canción</string>
+    <string name="name_artist">Artista</string>
+
+    <!--nosotros-->
+    <string name="we_images_dont_avaliable">no images avaliable</string>
+    <string name="we_invalid_content">No existe contenido</string>
+
+    <!--children-->
+    <string name="title_movies_child">Peliculas</string>
+    <string name="title_games_child">Juegos</string>
+    <string name="title_music_child">Musica</string>
+    <string name="title_abooks_child">Abooks</string>
+
+    <!-- MenuMaintenance-->
+    <string name="opc_File_manager">File Manager</string>
+    <string name="opc_settings_android">Settings Android</string>
+    <string name="opc_web_browser">Xilon</string>
+    <string name="opc_tokens">Tokens</string>
+    <string name="opc_reboot">Reboot</string>
+    <string name="opc_open_launcher">Open Laun</string>
+    <string name="opc_close_launcher">Close Laun</string>
+    <string name="opc_bar_off">Bar off</string>
+    <string name="opc_bar_on">Bar on</string>
+    <string name="opc_send_log">Send Log</string>
+    <string name="opc_install">Install</string>
+    <string name="opc_config_bus">Config Bus</string>
+    <string name="opc_config">Config</string>
+    <string name="seat">seat</string>
+    <string name="text_id_bus">Id Bus</string>
+    <string name="installed"> Installed: </string>
+    <string name="empty"> Empty </string>
+    <string name="finish">finish</string>
+    <string name="start">start</string>
+    <string name="name_tactil_config_device" translatable="false">tactil_U</string>
+    <string name="config">Config...</string>
+    <string name="set_up">Set up</string>
+    <string name="type_tactil_config_device" translatable="false">A</string>
+    <string name="name_dialog_maintenance">Maintenance menu</string>
+    <string name="default_seat" translatable="false">tactil_U00000A00</string>
+    <string name="device_root">Device Root</string>
+    <string name="device_unroot">Device unroot</string>
+    <string name="incorrect_password">incorrect password</string>
+    <string name="empty_data">empty data</string>
+    <string name="server_null">URL Server null</string>
+    <string name="dir">Dir</string>
+    <string name="success">Success!!!</string>
+    <string name="cancel">Cancel</string>
+    <string name="abreviation_version" translatable="false">v</string>
+    <string name="title_window_actia_maintenance">Maintenance</string>
+    <string name="install">Install</string>
+    <string name="unistall">uninstall</string>
+    <string name="opc_detail_tokens">Tokens detail</string>
+    <string name="app_testing_not_found" translatable="false">No se puede abrir aplicacion</string>
+    <string name="msg_verify_app_install" translatable="false">Favor de revisar si la aplicacion se encuentra instalada</string>
+
+    <!--LoadSDCardActivity -->
+    <string name="memory_not_mounted">MicroSD no montada</string>
+    <string name="loading">Loading...</string>
+
+    <!-- ErrorActivity -->
+    <string name="error_report">Reporte de error:</string>
+
+
+    <!-- AdvertisingActivity-->
+    <string name="error_content_home_aplications">MicroSD - No existe contenido en home/applications</string>
+    <string name="error_config_file">MicroSD - No existe el directorio y/o archivo config</string>
+    <string name="error_sd_not_mounted">MicroSD no montada</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="subtitlewelcome">Toque la pantalla para continuar</string>
+    <string name="starting">Iniciando</string>
+    <!-- shutDown-->
+    <string name="goodbye_thank_you">Gracias por viajar con nosotros!</string>
+    <string name="msg_shutdown">El sistema se apagará en un momento ...</string>
+
+    <!-- Fragment License-->
+    <string name="set_actia_user">KEY Actia</string>
+    <string name="set_user">Set user</string>
+    <string name="validate_license">Validate Licenses</string>
+    <string name="all_licenses">All licenses</string>
+    <string name="number_tokens_validated">Tokens validados: 0</string>
+    <string name="stop_validation">Stop validation</string>
+    <string name="tokens">Tokens:</string>
+    <string name="finished">"Finished"</string>
+
+    <!-- DRM -->
+    <string name="working">Working ...</string>
+    <string name="error_personalize_wasabi">runtime initialization or personalization error: </string>
+    <string name="error_token_not_found">Could not find action token in the assets directory - exiting</string>
+    <string name="license_successfully">- license successfully acquired in (ms): </string>
+    <string name="license_acquisition_token">could not acquire the license from the license acquisition token - exiting: </string>
+    <string name="canceling">Canceling...</string>
+    <string name="does_not_exist">does not exist</string>
+    <string name="null_path">null path</string>
+    <string name="class_exo" translatable="false">ExoDRMActivity</string>
+    <string name="class_exo_demo" translatable="false">ExoPlayerDemo</string>
+    <string name="error_playlist_proxy">playlist proxy error: </string>
+    <string name="PlaylistProxy_Event">PlaylistProxy Event: Error Notification, error code = </string>
+    <string name="error_string">error string = </string>
+    <string name="error_playback">playback error: </string>
+    <string name="There_are_no_token_in">There are no token in </string>
+    <string name="token_no_selected">No tokens selected!</string>
+    <string name="canceled_token">cancelled</string>
+    <string name="error_login_user">Error logging the user: </string>
+    <string name="tokens_ok">Ok!! Tokens</string>
+    <string name="tokens_validated">Tokens validados: </string>
+    <string name="no_tokens_in">There are no tokens in</string>
+    <string name="valid_tokens">"Tokens validados: 0"</string>
+    <string name="default_id_device" translatable="false">000000</string>
+    <string name="default_id_bus" translatable="false">00</string>
+    <string name="drm_error_not_supported">Protected content not supported on API levels below 18</string>
+    <string name="drm_error_unsupported_scheme">This device does not support the required DRM scheme</string>
+    <string name="drm_error_unknown">An unknown DRM error ocurred</string>
+
+    <!-- states Sd-->
+    <string name="error_memory_removed">MicroSD - La MicroSD ha sido removida</string>
+    <string name="error_memory_not_mounted">MicroSD - La MicroSD fue retirada de la ranura, pero el punto de montaje no ha sido desmontado</string>
+    <string name="error_memory_is_using_an_incompatible_format">MicroSD - La MicroSD esta presente pero esta usando un formato de archivos incompatible o esta en blanco</string>
+    <string name="error_memory_can_not_be_mounted">MicroSD - La MicroSD esta presente pero no puede ser montada</string>
+    <string name="error_memory_but_it_has_not_been_mounted">MicroSD - La MicroSD esta presente pero no ha sido montada</string>
+
+
+    <!-- Tokens -->
+    <string name="finished_tok">"Finished"</string>
+    <string name="validate_token">Validado</string>
+    <string name="process_token">pendiente</string>
+    <string name="error_token">Error</string>
+    <string name="uknow_token">Desconocido</string>
+    <string name="status_token">Estatus: </string>
+    <string name="number_errors_token">Cantidad de Errores: </string>
+    <string name="last_update_token">Fecha descarga xml: </string>
+    <string name="dialog_key_token_msg">Validando llave</string>
+    <string name="dialog_token_validate_msg">Validando Tokens</string>
+    <string name="key_token_dont_validate">No se lograro validar la  llave</string>
+    <string name="dlg_title_tkns_ok">Finish</string>
+    <string name="dlg_title_tkns_incomplete">Incomplete</string>
+    <string name="dlg_title_tkns_error">Error</string>
+    <string name="dlg_title_User_error">Error</string>
+    <string name="dlg_msg_user_error">No se logro validar llave</string>
+    <string name="dlg_msg_tkns_msg_ok">Todos los tokens se validaron correctamente: </string>
+    <string name="dlg_msg_tkns_msg_incomplete">tokens validados: </string>
+    <string name="dlg_msg_tkns_msg_error">No se lograron validar los tokens</string>
+    <string name="tok_totales">Tokens totales</string>
+    <string name="tok_error">Tokens con error</string>
+    <string name="tok_key">Status key</string>
+    <string name="tok_not_register">Tokens sin validar</string>
+    <string name="tok_correct">Tokens correctos</string>
+    <string name="manually_loaded">Manually loaded</string>
+    <string name="info_tokens">Info tokens</string>
+    <string name="tok_validar">validar</string>
+    <string name="msg_no_tokens_pending">No hay tokens pendientes</string>
+    <string name="no_conection">No hay conexion a Internet</string>
+    <string name="file_initial_sd">Desde el inicio en Sd</string>
+    <string name="no_exist_dir_key_tokens">No existe key y/o tokens</string>
+
+    <string name="inf_tok_exist">Existente</string>
+    <string name="inf_tok_no_exist">No existente</string>
+    <string name="inf_tok_Error">Error</string>
+    <string name="inf_tok_error">Key invalida</string>
+
+
+    <!--Test-->
+    <string name="text_example" translatable="false">Example</string>
+    <string name="text_example_medium" translatable="false">ExampleExampleExampleExampleExampleExampleExampleExampleExampleExample</string>
+    <string name="text_example_long" translatable="false">ExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExampleExample</string>
+    <string name="inf_tok_errors">Errors</string>
+    <string name="inf_tok_pending">Unvalidated</string>
+    <string name="inf_tok_ok">Ok</string>
+    <string name="inf_tok_validate_with_errors">unvalidated, with errors</string>
+
+
+    <!--Botbar-->
+    <string name="main_menu_botbar">Main Menu</string>
+    <string name="random_botbar">Random</string>
+    <string name="back_botbar">Back</string>
+    <string name="children_botbar">Children Section</string>
+    <string name="next_botbat">Next</string>
+    <string name="help_botbar">Help</string>
+
+    <!--HELP-->
+    <string name="help_dir_invalid">No existe contenido</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="images_dont_avaliable">no images available</string>
+
+    <!--dlg iseat-->
+    <string name="dlg_iseat_title">Atencion</string>
+    <string name="dlg_iseat_message">Para utilizar la aplicacion es necesario que usted se abroche el cinturon de seguridad, por su atencion, gracias</string>
+    <string name="dlg_iseat_textbtn_confirm">Aceptar</string>
+    <string name="dlg_iseat_textbtn_skip">Omitir</string>
+    <string name="navbar_comment">Bienvenido a bordo, disfruta del viaje.</string>
+    <string name="touch_screen">\"Toca la pantalla para continuar\"</string>
+
+
+    <string name="no_content">No existe contenido</string>
+
+    <!--BLUETOOTH DEVICE LAUNCHERS-->
+    <string name="dlg_bluetooth_dlg_title">Bluetooth</string>
+    <string name="dlg_bluetooth_deny_permissions">Se han denegado los permisos para bluetooth</string>
+    <string name="dlg_bluetooth_searching">Buscando dispositivos...</string>
+    <string name="dlg_bluetooth_found_device">Dispositivos encontrados</string>
+
+    <string name="bt_device_doesnt_have_bluetooth">Este dispositivo no cuenta con bluetooth</string>
+    <string name="bt_bluetooth_denied">Se denego por el usuario el uso de bluetooth</string>
+    <string name="bt_headset_not_working">No se puede iniciar el administrador bluetooth</string>
+    <string name="main_bluetooth_msg_connect">Conecta tu dispositivo </string>
+    <string name="main_bluetooth_msg_brightness">Brillo</string>
+    <string name="language_spanish">Spanish</string>
+    <string name="language_english">English</string>
+    <string name="main_language">Language</string>
+    <string name="header_welcome">Welcome</string>
+    <string name="title_brightness_dialog">Ajuste el brillo</string>
+
+
+    <string name="device_admin">Device Admin</string>
+    <string name="device_admin_description">Admin description</string>
+    <string name="start_survey">Iniciar Encuesta</string>
+    <string name="thanks_msg">Gracias por confiar en ETN. Te agradecemos que nos compartieras tiempo para responder una breve encuesta de tu experiencia con nosotros.</string>
+    <string name="no_thanks">No, gracias</string>
+    <string name="next_question">Siguiente</string>
+    <string name="previous_question">Anterior</string>
+    <string name="send_survey">Enviar</string>
+    <string name="close_survey">Cerrar</string>
+    <string name="comment_why">Porque?</string>
+    <string name="north_string">N</string>
+    <string name="south_string">S</string>
+    <string name="west_string">O</string>
+    <string name="northeast_string">NE</string>
+    <string name="east_string">E</string>
+    <string name="northwest_string">NO</string>
+    <string name="southeast_string">SE</string>
+    <string name="southwest_string">SO</string>
+    <string name="title_activity_mapas" translatable="false">MapasActivity</string>
+
+    <string name="titlecap">Title</string>
+    <string name="description" translatable="false">Media Controls</string>
+    <string name="address">Address</string>
+
+    <string name="opc_estrenos" translatable="false">Estrenos</string>
+    <string name="preference_extsd_path">extSdPath</string>
+
+</resources>

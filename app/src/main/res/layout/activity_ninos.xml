@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_ninos_abooks"
+    android:orientation="horizontal"
+    tools:context="com.actia.ninos.NinosActivity">
+
+    <include
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".3"
+        layout="@layout/header_category" />
+
+
+        <LinearLayout
+            android:id="@+id/contentCategories"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight=".7"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/llItem01Children"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgvItem01Children"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_gravity="center"
+                        android:focusable="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llItem02Children"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="75dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgvItem02Children"
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:layout_gravity="center"
+                        android:focusable="true" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/llItem00Children"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgvItem00Children"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:focusable="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llItem03Children"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="75dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgvItem03Children"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:focusable="true" />
+
+            </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

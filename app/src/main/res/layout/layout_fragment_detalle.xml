@@ -1,0 +1,171 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/volume_down_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:src="@drawable/volume_down_action" />
+
+
+            <SeekBar
+                android:id="@+id/volume_seek_bar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_toStartOf="@id/volume_image_view"
+                android:layout_toEndOf="@id/volume_down_image_view"
+                android:layout_weight="5"
+                android:thumb="@drawable/ic_circle" />
+
+            <ImageView
+                android:id="@+id/volume_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:src="@drawable/volume_up_action" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView_titulocancion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/name_song"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/textView_autor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_titulocancion"
+            android:layout_centerHorizontal="true"
+            android:text="@string/time_song"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"
+        android:orientation="horizontal">
+
+
+        <Space style="@style/SpaceGnral" />
+
+        <ImageView
+            android:id="@+id/atras"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/state_item_focus_control_remote"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/btn_back" />
+
+        <Space style="@style/SpaceGnral" />
+
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/state_item_focus_control_remote"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/play" />
+
+        <Space style="@style/SpaceGnral" />
+
+        <ImageView
+            android:id="@+id/adelante"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/state_item_focus_control_remote"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/btn_forw" />
+
+        <Space style="@style/SpaceGnral" />
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/songCurrentDurationLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/time_default"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/songTotalDurationLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="@string/time_default"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <SeekBar
+            android:id="@+id/songProgressBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="5dp"
+            android:focusable="false"
+            android:progress="0"
+            android:progressDrawable="@drawable/seekbar_progress"
+            android:thumb="@drawable/seek_ball" />
+
+    </RelativeLayout>
+</LinearLayout>

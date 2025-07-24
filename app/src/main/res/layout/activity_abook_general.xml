@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llytParentAbook"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_general"
+    android:orientation="horizontal"
+    tools:context="com.actia.audiolibros.ABookLinearActivity">
+
+    <include
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".3"
+        layout="@layout/header_category" />
+
+    <FrameLayout
+        android:id="@+id/framelytListAbookGnral"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".7"
+        android:padding="16dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
+

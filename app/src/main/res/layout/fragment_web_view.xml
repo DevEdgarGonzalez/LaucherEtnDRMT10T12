@@ -1,0 +1,74 @@
+<androidx.constraintlayout.ConstraintLayou xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.actia.help_aboutus.WebViewFragment">
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:progressDrawable="@drawable/progress_drawable_web_view"
+        android:layout_height="@dimen/size_bar_web_view"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imgvBack_fwv"
+        android:layout_width="80dp"
+        android:layout_height="@dimen/size_bar_web_view"
+        android:layout_marginStart="16dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/state_btn_back_web_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvUrl_fwv"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/size_bar_web_view"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@id/imgvBack_fwv"
+        app:layout_constraintEnd_toEndOf="@id/imgvRefresh_fwv"
+        app:layout_constraintStart_toEndOf="@id/imgvBack_fwv"
+        app:layout_constraintEnd_toStartOf="@id/imgvRefresh_fwv" />
+
+    <ImageView
+        android:id="@+id/imgvRefresh_fwv"
+        android:layout_width="@dimen/size_bar_web_view"
+        android:layout_height="@dimen/size_bar_web_view"
+        android:src="@drawable/state_btn_refresh"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:layout_marginEnd="16dp"/>
+
+    
+    <WebView
+        android:id="@+id/wvContainerWeb_fwv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvUrl_fwv" >
+
+
+    </WebView>
+
+
+    <ProgressBar
+        android:id="@+id/pb_fwv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:progressDrawable="@color/greenactia"
+        android:progressTint="@color/greenactia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.ConstraintLayou>
